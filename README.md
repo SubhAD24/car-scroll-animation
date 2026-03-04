@@ -47,14 +47,19 @@ ScrollTrigger pinning
 
 Performance optimized rendering
 
-🛠 Tech Stack
-Technology	Purpose
-React	UI Framework
-GSAP	Animation engine
-ScrollTrigger	Scroll based animation
-TailwindCSS	Styling
-Vite	Fast build tool
-GitHub Pages	Deployment
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|--------|
+| React | UI Framework |
+| GSAP | Animation Engine |
+| ScrollTrigger | Scroll-based animation |
+| TailwindCSS | Styling |
+| Vite | Fast build tool |
+| GitHub Pages | Deployment |
+## 📂 Project Structure
+
+```text
 car-scroll-animation
 │
 ├── public
@@ -72,7 +77,7 @@ car-scroll-animation
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-
+```
 ⚡ Installation
 
 Clone the repository
