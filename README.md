@@ -55,7 +55,6 @@ ScrollTrigger	Scroll based animation
 TailwindCSS	Styling
 Vite	Fast build tool
 GitHub Pages	Deployment
-📂 Project Structure
 car-scroll-animation
 │
 ├── public
@@ -66,9 +65,14 @@ car-scroll-animation
 │   ├── main.jsx
 │   └── index.css
 │
+├── dist
+│
+├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
+
 ⚡ Installation
 
 Clone the repository
