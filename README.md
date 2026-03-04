@@ -1,16 +1,118 @@
-# React + Vite
+🚗 Car Scroll Animation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+An interactive scroll-driven animation website built with React + GSAP ScrollTrigger.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project showcases smooth car movement, dynamic headlight lighting effects, and animated KPI cards triggered by scrolling, inspired by modern product storytelling websites like Apple or Tesla.
 
-## React Compiler
+🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 View Website
 
-## Expanding the ESLint configuration
+https://subhad24.github.io/car-scroll-animation/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+
+🚗 Scroll Driven Car Animation
+The car smoothly moves across the screen based on scroll position.
+
+💡 Dynamic Headlight Lighting Effect
+Text lights up dynamically when the car passes over it.
+
+📊 Animated KPI Cards
+Statistics cards animate in and out during the scroll sequence.
+
+⚡ Velocity Based Car Tilt
+The car slightly rotates based on scroll speed for realism.
+
+🎯 High Performance Animation
+Built using GSAP and ScrollTrigger for optimized animation performance.
+
+📱 Responsive Layout
+Works across different screen sizes.
+
+🧠 Animation Concepts Used
+
+This project demonstrates several advanced frontend animation techniques:
+
+Scroll-driven animation timelines
+
+Element interaction based on position
+
+Velocity-based animation feedback
+
+Dynamic lighting simulation
+
+ScrollTrigger pinning
+
+Performance optimized rendering
+
+🛠 Tech Stack
+Technology	Purpose
+React	UI Framework
+GSAP	Animation engine
+ScrollTrigger	Scroll based animation
+TailwindCSS	Styling
+Vite	Fast build tool
+GitHub Pages	Deployment
+📂 Project Structure
+car-scroll-animation
+│
+├── public
+│   └── car.png
+│
+├── src
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+⚡ Installation
+
+Clone the repository
+
+git clone https://github.com/SubhAD24/car-scroll-animation.git
+
+Move into the project folder
+
+cd car-scroll-animation
+
+Install dependencies
+
+npm install
+
+Run development server
+
+npm run dev
+🚀 Build & Deploy
+
+Build the project
+
+npm run build
+
+Deploy to GitHub Pages
+
+npm run deploy
+👨‍💻 Author
+
+Subhra Adhikary
+
+💻 GitHub
+https://github.com/SubhAD24
+
+
+⭐ Support
+
+If you like this project, consider starring the repository ⭐
+
+It helps others discover the project.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+💡 Portfolio Note
+
+This project was created to demonstrate modern frontend animation techniques using GSAP and React, suitable for portfolio projects, internships, and frontend developer roles.
